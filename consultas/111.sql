@@ -1,0 +1,1 @@
+SELECT * FROM CAJA WHERE fecha_hora LIKE '2019-08-17%'

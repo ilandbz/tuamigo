@@ -1,0 +1,57 @@
+#contenidoprincipal{
+	margin-top:60px;
+}
+textarea {
+    resize: none;
+}
+.form-group.last { margin-bottom:0px; }
+a.nounderline:link{   
+ text-decoration:none;   
+}   
+#myModal2 {
+  margin-top:150px;
+}
+/*TABLA FIXED*/
+.table-fixed thead {
+  width: 99%;
+}
+.table-fixed tbody {
+  height: 430px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}
+
+.input-xs {
+  height: 22px!important;
+  padding: 2px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.input-group-xs>.form-control,
+.input-group-xs>.input-group-addon,
+.input-group-xs>.input-group-btn>.btn {
+  height: 22px;
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+input[type=checkbox].checkpagar {
+    zoom: 0.9;
+}
+/*hacer mas pequeño select*/
+select.input-xs{
+  height: 22px!important;
+  padding: 2px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
